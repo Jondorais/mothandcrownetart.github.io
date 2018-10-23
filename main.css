@@ -1,0 +1,17 @@
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family: "Papyrus", "Arial", sans-serif;
+  line-height: 1.75;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+a {
+color: #4A71FF;
+text-decoration: none;
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}

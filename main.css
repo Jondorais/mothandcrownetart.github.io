@@ -1,16 +1,17 @@
 body {
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Papyrus", "Arial", sans-serif;
+  font-family: "Papyrus", "Times New Roman", sans-serif;
   line-height: 1.75;
   padding: 30px 20px;
+  background-color: #ACDBFF;
   text-align: center;
 }
 
 a {
 color: #074AA3;
 text-decoration: none;
-background-color: #ACDBFF;
+
 }
 
 h1 {

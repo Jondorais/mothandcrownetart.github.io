@@ -10,21 +10,36 @@
     <h3>If a picture is worth a thousand words, then one picture could sum up an entire short story.</h3>
     <div>
       <img id= "1" hidden src= "images/Lenney Loops.png">
-      <img id= "2" hidden src="images/Papaya Puffs.png">
+      <img id= "2" hidden src="images/Todd Bran.png">
       <img id= "3" hidden src="images/Tree Berry Crunch.png">
       <img id= "4" hidden src="images/Uz-ro_s 3.png">
       <img id= "5" hidden src="images/Rainbow Man Rainbow Munchies.png">
       <img id= "6" hidden src="images/Snack Man Corn Flakes.png">
       <img id= "7" hidden src="images/Soccer Crisp.png">
-      <img id= "8" hidden src="images/Todd Bran.png">
+      <img id= "8" hidden src="images/Papaya Puffs.png">
       <img id= "9" hidden src="images/Cocoa Papaya Puffs.png">
     </div>
     <div id=image>
       <script>
-        y= Math.floor(Math.random()*9 )+1; 
-        x= document.getElementById(y);
-        x.removeAttribute("hidden");
-        document.getElementById("image").appendChild(x);
+        y= Math.floor(Math.random()*20 )+1;
+        if(y=1){   
+          G= Math.floor(Math.random()*2 )+1; 
+          if(G=1){
+         
+          x= document.getElementById(8);
+          x.removeAttribute("hidden");
+          document.getElementById("image").appendChild(x);
+          } else{
+          x= document.getElementById(9);
+          x.removeAttribute("hidden");
+          document.getElementById("image").appendChild(x);
+          }
+      } else{
+          G= Math.floor(Math.random()*7 )+1; 
+            x= document.getElementById(G);
+            x.removeAttribute("hidden");
+            document.getElementById("image").appendChild(x);
+      }  
       </script>
   </body>
   <header>

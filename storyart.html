@@ -4,10 +4,6 @@
     <meta charset="utf-8">
     <title>(Cereal Art)</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-      <script>
-      x= document.getElementById(Math.random(1,9) );
-      document.getElementById("image").appendChild(x)
-      </script>
   </head>
   <body>
     <h1>Cereal Art</h2>
@@ -24,6 +20,11 @@
       <img id= "9" src="images/Cocoa Papaya Puffs.png">
     </div>
     <div id=image>
+      <script>
+        y=Math.floor( Math.random()*9 )+1; 
+        x= document.getElementById(y);
+      document.getElementById("image").appendChild(x);
+      </script>
   </body>
   <header>
     <a href="index.html"><h1>Back to Home Page</h1></a>
